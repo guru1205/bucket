@@ -6,6 +6,6 @@ resource "aws_s3_bucket" "bkt" {
 }
 resource "aws_s3_bucket" "object"{
   bucket = "guru-bucket15-2022"
-  key = "credentials"
-  source = "D:\\GuruDrive\\aws_credentials"
+    key = "credentials"
+   source = "D:\\GuruDrive\\aws_credentials"
 }
