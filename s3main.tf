@@ -4,3 +4,8 @@ resource "aws_s3_bucket" "bkt" {
     acl    = "private"
   }
 }
+resource "aws_s3_bucket" "object"{
+  bucket = "guru-bucket15-2022"
+  key = "credentials"
+  source = "D:\\GuruDrive\\aws_credentials"
+}
