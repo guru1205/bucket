@@ -3,10 +3,7 @@ resource "aws_s3_bucket" "bkt" {
   tags = {
     acl    = "private"
   }
-  versioning {
-    enabled = true
-  }
-}
+ }
 resource "aws_s3_bucket_object" "object" {
   bucket = "guru-bucket15-2022"
   key    = "DevOps"
